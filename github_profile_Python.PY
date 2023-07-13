@@ -12,8 +12,8 @@ class PythonDataAnalyst:
         self.cv = "Know about my experiences"
 
     def say_hi(self):
-        print(f'{self.name} 👋')
-        print(f'{self.aboutme}')
+        print(f'{self.name} 👋', end=2*'\n')
+        print(f'{self.aboutme}', end=2*'\n')
         print(f'- 🎯 {self.goal}')
         print(f'- 💡 {self.learning}')
         print(f'- 🌱 {self.challenge}')
@@ -21,7 +21,7 @@ class PythonDataAnalyst:
         print(f'- 🥁 {self.askme}')
         print(f'- 📩 {self.email}')
         print(f'- 👣 {self.career}')
-        print(f'- ✅ {self.cv}')
+        print(f'- ✅ {self.cv}', end=2*'\n')
         print("Thanks for dropping by!")
 
 
